@@ -1,0 +1,3 @@
+<!-- must return a string in the end (string interpolation) -->
+<!-- no block expressions, you can use ternary expressions -->
+<p [ngStyle]="{backgroundColor: getColor()}" [ngClass]="{online: serverStatus === 'online'}">Server with ID {{ serverId }} is {{ getServerStatus() }} </p>
